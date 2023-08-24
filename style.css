@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    background: rgb(29, 24, 25);
+    background: linear-gradient(149deg, rgb(9, 9, 9) 65%, rgb(85, 1, 1) 100%, rgba(133, 109, 192, 0.9276960784313726) 100%, rgba(136, 108, 189, 1) 100%, rgba(253, 73, 29, 1) 100%);
+}
+
+.nav {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+
+}
+
+.nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav li {
+    list-style: none;
+    color: #7A7D80;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    width: 125px;
+    height: 50px;
+    background-color: transparent;
+    color: #7A7D80;
+    border: 1px solid #7A7D80;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#btn {
+    border: none;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.left-section {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+
+.left-section p {
+    color: #7A7D80;
+    padding-right: 80px;
+    font-size: 22px;
+}
+
+.left-section h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 180px;
+}
+
+.right-section img {
+    width: 400px;
+}
+
+#herobtn {
+    width: 260px;
+    height: 50px;
+    margin-right: 80px;
+    text-align: start;
+    padding-left: 12px;
+}
+
+.section i {
+    color: white;
+}
+
+.visit-section {
+    display: flex;
+    padding-top: 50px;
+    column-gap: 20px;
+
+}
+
+.box1 {
+    width: 28%;
+    height: 100px;
+    padding-inline: 130px;
+
+
+}
+
+.box1 h2 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.box2 {
+    width: 25%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid #5B313A;
+    border-radius: 15px;
+    padding-block: 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(9deg, rgba(0, 0, 0, 1) 52%, rgb(32, 1, 1) 100%);
+
+}
+
+.box2 p {
+    color: #7A7D80;
+}
+
+.box2 h4 {
+    font-size: 23px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.box3 {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid #5B313A;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.box3 h4 {
+    color: white;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+#ANYTIME {
+    width: 120px;
+    height: 25px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    border-radius: 25px;
+    font-weight: 400;
+    background-color: #E79248;
+
+}
+
+.box4 {
+    width: 20%;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid #5B313A;
+    border-radius: 15px;
+    padding: 30px;
+
+}
+
+.box4 h4 {
+    color: white;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+#new {
+    width: 60px;
+    height: 25px;
+    border: none;
+    color: white;
+    background-color: #48A5D4;
+    font-size: 12px;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+        padding-inline: 10px;
+        padding-top: 10px;
+    }
+    .section{
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+    }
+    .right-section img{
+        width: 350px;
+    }
+    #herobtn{
+        margin-left: 25px;
+    }
+    .visit-section{
+        width: 100%;
+        height: auto;
+        /* display: flex; */
+        flex-direction: column;
+        padding-inline: 60px;
+        row-gap: 20px;
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        height: 300px;
+    }
+    .box3{
+        width: 100%;
+        height: 300px;
+    }
+    .box4{
+        width: 100%;
+        height: 300px;
+    }
+
+    
+}
